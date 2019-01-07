@@ -1,0 +1,54 @@
+{
+  "name": "vue-base",
+  "author": "Ivana Costa ivana.helena@hotmail.com",
+  "version": "0.1.0",
+  "engines": {
+    "node": "8.10.0"
+  },
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "start": "nodemon _server/app.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "connect-history-api-fallback": "^1.5.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "hogan": "^1.0.2",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.1",
+    "morgan": "^1.9.1",
+    "nodemailer": "^5.0.0",
+    "nodemon": "^1.18.9",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "register-service-worker": "^1.5.2",
+    "serve-static": "^1.13.2",
+    "vee-validate": "^2.1.5",
+    "vue": "^2.5.21",
+    "vue-router": "^3.0.1",
+    "vue-the-mask": "^0.11.1",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-plugin-pwa": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "@vue/eslint-config-standard": "^4.0.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.21"
+  }
+}

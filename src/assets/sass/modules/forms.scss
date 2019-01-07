@@ -1,0 +1,26 @@
+form {
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+  .form-group {
+    .form-field {
+      label {
+        display: block;
+      }
+      input {
+        display: block;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.invalid-feedback {
+  display: block;
+  color: red;
+}
+
+.is-invalid {
+  color: red;
+  border: 1px solid red;
+}
